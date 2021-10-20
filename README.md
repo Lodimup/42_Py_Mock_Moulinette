@@ -25,12 +25,12 @@ Pure python standard lib.  No venv no pip shenanigans.
 
 **Usage:**
 
-    git clone 
+    git clone https://github.com/Lodimup/42_Py_Mock_Moulinette.git
     mv * <root_of_your>
     cd <root_of_your>
     python3 PMM.py
 
-  
+
 After you’re done to send PMM to the afterworld ( delete )
 
     bash goodbye_PMM.sh
@@ -41,5 +41,5 @@ Pro tips. Yell “MOULINETTEEEEEEEE” while testing to increase your chance of 
 
 **todo:**
 
-Parse Norminette stdout
+Parse Norminette stdout  
 Finish Shell01
