@@ -25,7 +25,8 @@ Py_Mock_Moulinette will “try” to KAPUT your code by compiling and running it
 
 Pure python standard lib.  No venv no pip shenanigans.
 
-**Usage:**
+**Usage:**  
+*check if files names collide before you proceed. cp overwrites by default
 
     git clone https://github.com/Lodimup/42_Py_Mock_Moulinette.git
     cp -r 42_Py_Mock_Moulinette/ <root_of_your_repo>/
