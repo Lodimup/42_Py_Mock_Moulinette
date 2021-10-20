@@ -1,6 +1,8 @@
 
 ## **42_Py_Mock_Moulinette**
 
+![alt text](https://github.com/Lodimup/42_Py_Mock_Moulinette/raw/main/img/01.png)
+
 I heard you like codes so I put C into BashScript into Python.
 
 Inspired by MockMoulinette https://github.com/kristofk/MockMoulinette
