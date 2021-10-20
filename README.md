@@ -28,8 +28,8 @@ Pure python standard lib.  No venv no pip shenanigans.
 **Usage:**
 
     git clone https://github.com/Lodimup/42_Py_Mock_Moulinette.git
-    mv * <root_of_your>
-    cd <root_of_your>
+    cp * <root_of_your_repo>
+    cd <root_of_your_repo>
     python3 PMM.py
 
 
