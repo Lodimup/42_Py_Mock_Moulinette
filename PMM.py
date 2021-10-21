@@ -85,7 +85,7 @@ def test_ft_print_alphabet():
     if stdout[0] == string.ascii_lowercase:
         print('ex01: ft_print_alphabet.c OK!')
         return True
-    print('ft_putchar FAILED! Expected "{string.ascii_lowercase}" Got:')
+    print('ft_print_alphabet FAILED! Expected "{string.ascii_lowercase}" Got:')
     print(f'stdout: {stdout}')
     print(f'stderr: {stderr}')
 
@@ -97,12 +97,23 @@ def test_ft_print_reverse_alphabet():
     if stdout[0] == string.ascii_lowercase[::-1]:
         print('ex02: ft_print_reverse_alphabet.c OK!')
         return True
-    print('ft_putchar FAILED! Expected "{string.ascii_lowercase[::-1]}" Got:')
+    print('ft_print_reverse_alphabet FAILED! Expected "{string.ascii_lowercase[::-1]}" Got:')
     print(f'stdout: {stdout}')
     print(f'stderr: {stderr}')
 
     return False
 
+
+def test_ft_is_negative():
+    stdout, stderr = compile_and_run_C('test_ft_is_negative.c')
+    if stdout[0] == 'NPP':
+        print('ex03: ft_is_negative.c OK!')
+        return True
+    print('ft_is_negative Failed! Expected "{string.ascii_lowercase[::-1]}" Got:')
+    print(f'stdout: {stdout}')
+    print(f'stderr: {stderr}')
+
+    return False
 
 def test_c00():
     test_ft_putchar()
