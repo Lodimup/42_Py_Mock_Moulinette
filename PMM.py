@@ -115,11 +115,13 @@ def test_ft_is_negative():
 
     return False
 
+
 def test_c00():
     test_ft_putchar()
     test_ft_print_alphabet()
     test_ft_print_reverse_alphabet()
     test_ft_is_negative()
+
 
 
 def main():
